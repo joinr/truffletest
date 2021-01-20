@@ -1,0 +1,6 @@
+[{
+  "name": "clojure.lang.Numbers",
+  "allPublicMethods" : true,
+  "allPublicFields" : true,
+  "allPublicConstructors" : true
+}]
