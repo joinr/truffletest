@@ -1,10 +1,15 @@
 # truffletest
 
-A Clojure library designed to ... well, that part is up to you.
+Trying to compile and run the Clojure compiler with Truffle on Java.
 
-## Usage
+## Build
 
-FIXME
+Prerequisites:
+
+- lein
+- native-image
+
+Run: `./build.sh` to produce the `truffletest` binary.
 
 ## License
 
