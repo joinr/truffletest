@@ -2,9 +2,10 @@
   (:require [clojure.main :as main])
   (:gen-class :main true))
 
-
 (defn -main [& args]
-  (println (eval '(+ 2 3))))
+  (if-let [expr (first args)]
+    (println (load-string expr))
+    (println (eval '(+ 1 2 3)))))
 
 #_(defn -main [& args]
   (main/repl)
